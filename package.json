@@ -2,7 +2,7 @@
   "name": "v3-template",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -10,6 +10,7 @@
     "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,ts,json,tsx,less,scss,html,md}\""
   },
   "dependencies": {
+    "@commitlint/config-conventional": "^17.7.0",
     "cz-git": "^1.7.1",
     "prettier": "^3.0.1",
     "vue": "^3.3.4"
